@@ -1,0 +1,3 @@
+[submodule "rust/tic-tac-toe-rs"]
+	path = rust/tic-tac-toe-rs
+	url = git@github.com:brysma1/tic-tac-toe-rs.git
