@@ -1,0 +1,9 @@
+[package]
+name = "turso-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenv = "0.15.0"
+libsql = "0.9.19"
+tokio = "1.47.1"
