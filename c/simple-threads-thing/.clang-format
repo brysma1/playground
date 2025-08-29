@@ -1,0 +1,61 @@
+# Documentation of the Clang-Format Style Options in:
+#   https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+
+# -----===== {General Style Options} =====-----
+BasedOnStyle: LLVM
+Language: C
+
+# Set indentation size to 4 spaces
+TabWidth: 4
+IndentWidth: 4
+
+# Tabs are the devil
+UseTab: Never
+
+# Little bit more than average size
+ColumnLimit: 100
+
+# -----===== {Alignment Options} =====-----
+AlignAfterOpenBracket: Align
+AlignArrayOfStructures: Left
+AlignOperands: AlignAfterOperator
+
+AlignConsecutiveAssignments: 
+  Enabled: True
+  AcrossEmptyLines: False
+  AcrossComments: False
+  AlignCompound: True
+  AlignFunctionPointers: False
+  PadOperators: False
+
+AlignConsecutiveBitFields:
+  Enabled: True
+  AcrossEmptyLines: False
+  AcrossComments: False
+  AlignCompound: True
+  AlignFunctionPointers: False
+  PadOperators: False
+
+AlignConsecutiveDeclarations:
+  Enabled: True
+  AcrossEmptyLines: False
+  AcrossComments: False
+  AlignCompound: True
+  AlignFunctionPointers: False
+  PadOperators: False
+
+AlignConsecutiveMacros:
+  Enabled: True
+  AcrossEmptyLines: False
+  AcrossComments: False
+  AlignCompound: True
+  AlignFunctionPointers: False
+  PadOperators: False
+
+AlignTrailingComments:
+  Kind: Always
+  OverEmptyLines: 0
+
+# -----===== {if statements} =====-----
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: true
